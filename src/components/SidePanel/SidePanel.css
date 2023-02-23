@@ -1,0 +1,13 @@
+.sidepanel {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidepanel img {
+    width: 10rem;
+}
+
+.sidepanel span {
+    margin: 1rem 1rem 1rem 0;
+}

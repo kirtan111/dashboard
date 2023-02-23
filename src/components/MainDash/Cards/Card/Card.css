@@ -1,0 +1,9 @@
+.card {
+    margin: 1rem;
+    width: 100%;
+    flex-grow: 2;
+}
+
+.details title {
+    font-size: 50px;
+}
