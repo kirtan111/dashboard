@@ -8,63 +8,44 @@ const ActiveStudents = () => {
             type: "column",
         },
         title: {
-            text: "Target vs Enrolment Chart",
-            align: "left",
+            text: "Target VS Enrolment Chart",
         },
         xAxis: {
             categories: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+            crosshair: true,
         },
         yAxis: {
             min: 0,
-            // title: {
-            //     text: "Count trophies",
-            // },
-            stackLabels: {
-                enabled: true,
-                style: {
-                    fontWeight: "bold",
-                    color:
-                        // theme
-                        (Highcharts.defaultOptions.title.style && Highcharts.defaultOptions.title.style.color) || "gray",
-                    textOutline: "none",
+            title: {
+                text: "Percentage",
+            },
+            labels: {
+                formatter: function () {
+                    return this.value + "%";
                 },
             },
         },
-        legend: {
-            align: "left",
-            x: 70,
-            verticalAlign: "top",
-            y: 70,
-            floating: true,
-            backgroundColor: Highcharts.defaultOptions.legend.backgroundColor || "white",
-            borderColor: "#CCC",
-            borderWidth: 1,
-            shadow: false,
-        },
         tooltip: {
-            headerFormat: "<b>{point.x}</b><br/>",
-            pointFormat: "{series.name}: {point.y}<br/>Total: {point.stackTotal}",
+            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td><td style="padding:0"><b>{point.y:.1f} %</b></td></tr>',
+            footerFormat: "</table>",
+            shared: true,
+            useHTML: true,
         },
         plotOptions: {
             column: {
-                stacking: "normal",
-                dataLabels: {
-                    enabled: true,
-                },
+                pointPadding: 0.2,
+                borderWidth: 1,
             },
         },
         series: [
             {
-                name: "BPL",
-                data: [3, 5, 1, 13, 15],
+                name: "Target",
+                data: [80, 75, 70, 90, 60, 85, 70],
             },
             {
-                name: "FA Cup",
-                data: [14, 8, 8, 12, 2],
-            },
-            {
-                name: "CL",
-                data: [0, 2, 6, 3, 12],
+                name: "Enrolment",
+                data: [50, 45, 60, 40, 50, 60, 55],
             },
         ],
     };

@@ -5,7 +5,7 @@ import "./Charts.css";
 
 const Charts = () => {
     return (
-        <div className="d-flex justify-content-between border">
+        <div className="d-flex justify-content-between border mx-3">
             <div className="ActiveStudents border">
                 <ActiveStudents />
             </div>
