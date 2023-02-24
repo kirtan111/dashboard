@@ -7,7 +7,7 @@ import Extras from "./Extras/Extras";
 
 const MainDash = () => {
     return (
-        <div className="maindash">
+        <div className="maindash border-start">
             <Navbar />
             <Cards />
             <Charts />

@@ -1,7 +1,19 @@
 import React from "react";
+import ActiveStudents from "./ActiveStudents/ActiveStudents";
+import TargetVSEnrolment from "./TragetVSEnrolment/TargetVSEnrolment";
+import "./Charts.css";
 
 const Charts = () => {
-    return <div>Charts</div>;
+    return (
+        <div className="d-flex justify-content-between border">
+            <div className="ActiveStudents border">
+                <ActiveStudents />
+            </div>
+            <div className="TargetVSEnrolment border">
+                <TargetVSEnrolment />
+            </div>
+        </div>
+    );
 };
 
 export default Charts;

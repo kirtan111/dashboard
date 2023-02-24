@@ -6,8 +6,14 @@
 
 .sidepanel img {
     width: 10rem;
+    margin-bottom: 24px;
 }
 
 .sidepanel span {
+    display: flex;
     margin: 1rem 1rem 1rem 0;
+    flex: 5;
 }
+
+
+
