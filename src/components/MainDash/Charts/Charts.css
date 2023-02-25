@@ -1,7 +1,11 @@
 .ActiveStudents {
     width: 50%;
+    border-color: brown;
+    border-radius: 10px;
 }
 
 .TargetVSEnrolment {
     width: 50%;
+    border-color: brown;
+    border-radius: 10px;
 }
