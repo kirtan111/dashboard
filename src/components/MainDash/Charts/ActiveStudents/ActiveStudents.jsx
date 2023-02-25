@@ -15,7 +15,7 @@ const ActiveStudents = () => {
             align: "left",
         },
         tooltip: {
-            pointFormat: "{series.name}: <b>{point.y} students</b>",
+            pointFormat: "{series.name}: <b>{point.y} Students</b>",
         },
         accessibility: {
             point: {
@@ -28,7 +28,7 @@ const ActiveStudents = () => {
                 cursor: "pointer",
                 dataLabels: {
                     enabled: true,
-                    format: "<b>{point.name}</b>: {point.y} students",
+                    format: "<b>{point.name}</b>: {point.y} Students",
                 },
             },
         },
@@ -55,19 +55,19 @@ const ActiveStudents = () => {
                     {
                         name: "CD-IELTS",
                         y: 120,
-                        sliced: true,
-                        selected: true,
+                        // sliced: true,
+                        // selected: true,
                     },
                     {
                         name: "CAEL",
                         y: 90,
                     },
                     {
-                        name: "Flip",
+                        name: "FLIP",
                         y: 80,
                     },
                     {
-                        name: "Toefl",
+                        name: "TOEFL",
                         y: 75,
                     },
                 ],
