@@ -29,7 +29,7 @@ const CourseExp = () => {
                         <tr>
                             <th scope="row">1</th>
                             <td>#198485</td>
-                            <td>Kirta Thummar</td>
+                            <td>Kirtan Thummar</td>
                             <td>PTE</td>
                             <td>KT_#01234</td>
                             <td>20-02-2022</td>
