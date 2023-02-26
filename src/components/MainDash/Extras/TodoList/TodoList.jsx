@@ -46,32 +46,32 @@ const TodoList = () => {
                         </button>
                     </div>
                 )}
-                <div className="mx-3">
-                    {todos.map((todo, index) => (
-                        <div className="d-flex my-4 justify-content-between todoTask" key={index}>
-                            <div>{todo}</div>
-                            <div>
-                                <select className="border rounded-3">
-                                    <option className="btn btn-primary" value="Open">
-                                        Open
-                                    </option>
-                                    <option className="btn btn-info" value="vegetable">
-                                        In Progress
-                                    </option>
-                                    <option className="btn btn-warning" value="Pending">
-                                        Pending
-                                    </option>
-                                    <option className="btn btn-danger" value="In Review">
-                                        In Review
-                                    </option>
-                                    <option className="btn btn-success" value="Finished">
-                                        Finished
-                                    </option>
-                                </select>
-                            </div>
+            </div>
+            <div className="mx-3">
+                {todos.map((todo, index) => (
+                    <div className="d-flex my-4 justify-content-between todoTask" key={index}>
+                        <div>{todo}</div>
+                        <div>
+                            <select className="border rounded-3">
+                                <option className="btn btn-primary" value="Open">
+                                    Open
+                                </option>
+                                <option className="btn btn-info" value="vegetable">
+                                    In Progress
+                                </option>
+                                <option className="btn btn-warning" value="Pending">
+                                    Pending
+                                </option>
+                                <option className="btn btn-danger" value="In Review">
+                                    In Review
+                                </option>
+                                <option className="btn btn-success" value="Finished">
+                                    Finished
+                                </option>
+                            </select>
                         </div>
-                    ))}
-                </div>
+                    </div>
+                ))}
             </div>
         </div>
     );

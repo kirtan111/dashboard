@@ -5,9 +5,8 @@ import Titles from "./Titles/Titles";
 
 const SidePanel = () => {
     return (
-        <div className="sidepanel">
+        <div className="sidepanel d-flex">
             <img src={logo} alt="logo" />
-            {/* <div className="sidepaneltitles"> */}
             <Titles title="Dashboard"></Titles>
             <Titles title="Admin"></Titles>
             <Titles title="Students"></Titles>
@@ -16,7 +15,6 @@ const SidePanel = () => {
             <Titles title="Reports"></Titles>
             <Titles title="Support"></Titles>
             <Titles title="Student Notification"></Titles>
-            {/* </div> */}
         </div>
     );
 };

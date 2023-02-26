@@ -1,34 +1,3 @@
-// import React from "react";
-// import "./Navbar.css";
-// import profile from "../../../Assets/profile.png";
-// import dashboard from "../../../Assets/dashboard.png";
-// import student_notification from "../../../Assets/student_notification.png";
-
-// const Navbar = () => {
-//     return (
-//         <div className="navbar">
-//             <span>
-//                 <img src={dashboard} alt="dashboard" /> Dashboard
-//             </span>
-
-//             <div className="navbar-end">
-//                 <input type="search" placeholder="Search" />
-
-//                 <span>
-//                     <img src={student_notification} alt="notification" />
-//                 </span>
-
-//                 <div className="profile">
-//                     <img src={profile} alt="profile" />
-//                     <span>Om Butani</span>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// };
-
-// export default Navbar;
-
 import React from "react";
 import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -39,7 +8,7 @@ import student_notification from "../../../Assets/student_notification.png";
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar border-bottom">
+            <nav className="navbar shadow navbar-expand-lg navbar border-bottom">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/">
                         <img src={dashboard} alt="" width="30" height="24" className="m-2" />

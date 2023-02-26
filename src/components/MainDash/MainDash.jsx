@@ -4,6 +4,7 @@ import Navbar from "./NavBar/Navbar";
 import Charts from "./Charts/Charts";
 import CourseDue from "./CourseDue/CourseDue";
 import Extras from "./Extras/Extras";
+import "./MainDash.css";
 
 const MainDash = () => {
     return (

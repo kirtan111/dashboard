@@ -1,18 +1,4 @@
-/* .sidebar {
-    display: flex;
-    flex-direction: row;
-}
-
-.arrowIcon {
-    display: flex;
-    flex: 2;
-}
-
-.sidebarTitle {
-    flex: 5;
-} */
-
-.sidebar {
+.Tickets {
     margin: 1rem;
     width: 92%;
     box-sizing: border-box;
@@ -21,7 +7,7 @@
     font-size: 1.1rem;
 }
 
-.sidebar .sidebarIcon {
+.Tickets .icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,11 +16,11 @@
     color: #96989f;
 }
 
-.sidebarDetails {
-    /* padding: 1rem; */
+.details {
+    padding: 1rem;
     flex: 5
 }
 
-.sidebarDetails sidebarTitle {
+.details title {
     font-size: 500px;
 }

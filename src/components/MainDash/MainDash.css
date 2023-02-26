@@ -1,0 +1,4 @@
+.maindash {
+    background-image: url('../../Assets/backimage.jpg');
+    backdrop-filter: blur(500px);
+}

@@ -9,10 +9,17 @@ const Titles = (props) => {
                     {props.title} <ChevronRightRoundedIcon />
                 </span>
             </div>
-            {/* <div className="arrowIcon">
-                <span><ChevronRightRoundedIcon /></span>
-            </div> */}
         </div>
+        // <div className="sidebar">
+        //     <div className="sidebarDetails">
+        //         <p className="sidebarTitle">{props.title}</p>
+        //     </div>
+        //     <div className="sidebarIcon">
+        //         <span>
+        //             <ChevronRightRoundedIcon />
+        //         </span>
+        //     </div>
+        // </div>
     );
 };
 

@@ -2,6 +2,6 @@
 .Ticket ,
 .TodoList {
         width: 33.33%;
-        border-color: brown;
         border-radius: 10px;
+        background-color: white;
 }
