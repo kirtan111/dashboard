@@ -1,0 +1,12 @@
+.addicon {
+    border-radius: 50%;
+    cursor: pointer;
+}
+.count {
+    border-radius: 100%;
+        /* margin-left: 5px; */
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 1.5rem;
+        height: 1.5rem;}

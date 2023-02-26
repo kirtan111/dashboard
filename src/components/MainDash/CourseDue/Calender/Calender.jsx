@@ -4,10 +4,11 @@ import "react-calendar/dist/Calendar.css";
 import "./Calendar.css";
 
 const Calender = () => {
-    const [value, onChange] = useState(new Date());
+    const [value, onChange] = useState([new Date(), new Date()]);
+
     return (
         <div className="border">
-            <Calendar className="calendar rounded-3" onChange={onChange} value={value} />
+            <Calendar className="calendar rounded-3" onChange={onChange} value={value} selectRange={true} />
         </div>
     );
 };

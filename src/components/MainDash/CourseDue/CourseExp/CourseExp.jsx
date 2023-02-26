@@ -6,8 +6,8 @@ const CourseExp = () => {
         <div>
             <p className="tablelabel my-4 ms-3 fw-bolder fs-4">Course Expiring Soon</p>
             <div>
-                <table class="table">
-                    <thead class="thead-light">
+                <table className="table">
+                    <thead className="thead-light">
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Id</th>
