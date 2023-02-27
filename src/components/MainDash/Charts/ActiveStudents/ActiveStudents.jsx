@@ -9,10 +9,17 @@ const ActiveStudents = () => {
             plotBorderWidth: null,
             plotShadow: false,
             type: "pie",
+            style: {
+                borderRadius: "10px",
+            },
         },
         title: {
             text: "Program wise Active Students",
             align: "left",
+            style: {
+                fontWeight: "bolder",
+                fontSize: "21px",
+            },
         },
         tooltip: {
             pointFormat: "{series.name}: <b>{point.y} Students</b>",

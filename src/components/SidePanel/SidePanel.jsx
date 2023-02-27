@@ -7,14 +7,14 @@ const SidePanel = () => {
     return (
         <div className="sidepanel d-flex">
             <img src={logo} alt="logo" />
-            <Titles title="Dashboard"></Titles>
-            <Titles title="Admin"></Titles>
-            <Titles title="Students"></Titles>
-            <Titles title="Programs"></Titles>
-            <Titles title="Employees"></Titles>
-            <Titles title="Reports"></Titles>
-            <Titles title="Support"></Titles>
-            <Titles title="Student Notification"></Titles>
+            <Titles title="Dashboard" />
+            <Titles title="Admin" />
+            <Titles title="Students" />
+            <Titles title="Programs" />
+            <Titles title="Employees" />
+            <Titles title="Reports" />
+            <Titles title="Support" />
+            <Titles title="Student Notification" />
         </div>
     );
 };

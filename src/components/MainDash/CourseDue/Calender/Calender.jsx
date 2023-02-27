@@ -7,7 +7,7 @@ const Calender = () => {
     const [value, onChange] = useState([new Date(), new Date()]);
 
     return (
-        <div className="border">
+        <div>
             <Calendar className="calendar rounded-3" onChange={onChange} value={value} selectRange={true} />
         </div>
     );

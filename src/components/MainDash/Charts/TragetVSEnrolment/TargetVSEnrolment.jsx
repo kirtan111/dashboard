@@ -6,10 +6,17 @@ const TargetVSEnrolment = () => {
     const options = {
         chart: {
             type: "column",
+            style: {
+                borderRadius: "10px",
+            },
         },
         title: {
             text: "Target VS Enrolment Chart",
             align: "left",
+            style: {
+                fontWeight: "bolder",
+                fontSize: "21px",
+            },
         },
         xAxis: {
             categories: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
